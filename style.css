@@ -5,26 +5,21 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    justify-content:left;
 }
-.header-titulo {
-    width: 40px;
-    text-align: left;
+.titulo {
     font-family: 'Unbounded';
-    font-weight: 800px;
-    color: #923234;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
 .logo-a {
-    width: 50px;
-    height: 50px;
-    margin-top: 20px;
-    margin-left: 35px;
-}
-
-.logo-a {
-    padding-top: 10px;
-    margin-left: 10px;
+    padding-top: 5px;
+    margin-left: 5px;
     width: 2%;
+    height: 20px;
 }
 
 main {
@@ -39,6 +34,7 @@ main {
     color: #0a3871;
     margin-top: 90px;
     text-transform: lowercase;
+
 }
 ::placeholder { color: #212fc3; }
   .texto:focus {
@@ -46,11 +42,10 @@ main {
   }
 
 .mensaje{
-    background-color: transparent;
     background: white;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 20px;
+    border: 10px solid;
+    border-style: groove;
+    border-radius: 10px;
     color: #0a3871;
     margin-left: 70px;
     margin-top: 10px;
@@ -94,20 +89,18 @@ main {
     background: rgb(30, 151, 207);
     transform: scale(0.9);
 }
-.copiar {
-    border: 2px solid #0a3871;
-    border-radius: 10px;
-    color: #0a3871;
+.copiar { 
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 14px;
     cursor: pointer;
-    height: 65px;
     margin-left: 95px;
     margin-top: 400px;
     position: absolute;
-    width: 290px;
-    background: #0a3871;
-    color: white;
-    transition: all 0.3s ease-in-out;
+    width: 299px;
+    height: 60px;
 }
+
 
 .copiar:hover {
     background: rgb(30, 151, 207);
@@ -117,4 +110,5 @@ main {
 .advertencia {
     color: #495057;
     font-size: 15px;
+ 
 }
