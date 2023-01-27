@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/reset.css">
     <link href="https://fonts.cdnfonts.com/css/mortal-kombat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Unbounded&display=swap" rel="stylesheet">
-    <!--CSS-->
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Encriptador</title>
 </head>
 
@@ -16,20 +16,16 @@
     <header class="header">
         <div>
             <img class="logo-a" src="/imagenes/Vector.png" alt="">
-            <div>
-                <h1>Encriptador</h1>
+                <h1>Alura-Encriptador</h1>
             </div>
-        </div>  
     </header>
 
     <main>
         <section>
-            <div>
-                <textarea class="ingresetexto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <textarea class="ingresetexto" cols="35" rows="10" placeholder="Ingrese el texto aquí"></textarea>
             </div>
             <div>
-                <h6>Solo letras minisculas y acento.</h6>
-                <img class="eliminar" src="/imagenes/1.jpg" alt="">
+                <h6><img class="eliminar" src="/imagenes/trash_full_delete_delete_9363 (1).png" alt=""> Solo letras minisculas y acento.</h6>
             </div>
             <div class="botones">
                 <button class="btn-encriptar" onclick="btnEncriprtar()">Encriptador</button>
@@ -39,15 +35,24 @@
           
         <section> 
             <div>
-                <textarea class="mensaje" cols="25" rows="10" placeholder="."></textarea>
-            <div>
-                <button class="copiar">Copiar</button>
-            </div>
+                <textarea class="mensaje" cols="25" rows="10" placeholder="No hay texto para Desencriptar"></textarea>
+            <div class="bton-copiar">
+                <div class="gif">
+                    <img src="/imagenes/giphy.gif" alt="">
+                </div>
+                <button autofocus class="copiar" onclick="copiartexto()">Copiar</button>
             </div>
         </section>
     </main>
 
 <script src="/script.js"></script>
+
+<footer>
+    <div class="redes">
+        <a class="fa fa-github-square github" id="github" href="https://github.com/FabianJimenez90"> Github </a>
+        <a class="fa fa-facebook-square" id="facebook" href="https://www.facebook.com/profile.php?id=100089118145592"> facebook</a>
+      </div>
+</footer>
 
 </body>
 </html>

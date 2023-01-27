@@ -1,4 +1,4 @@
-const texto = document.querySelector(".texto");
+const texto = document.querySelector(".ingresetexto");
 const mensaje = document.querySelector(".mensaje");
 
 
@@ -19,7 +19,7 @@ function btnDesencriprtar(){
     mensaje.value = textoEncriptado
 }
 
-
+ 
 function encriptar(stringEncriptada) {
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a","ai"], ["o","ober"],["u","ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase()
